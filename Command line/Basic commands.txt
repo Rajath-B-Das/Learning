@@ -1,4 +1,6 @@
-Command Line
+#Command Line
+
+############### File system exploration
 
 ##listing files
 ls
@@ -20,4 +22,58 @@ du
 
 ##List space in human readable format
 du -h
+
+##List memory available and usage stats
+df -h
+
+################# File system managing
+
+##create directory
+mkdir my_file
+
+##copy files to a directory
+cp source destination
+cp README.txt ~/my_file/READ.txt
+
+##copy direactory and its contents recursively
+cp -r my_file my_file_copy
+
+##move a directory
+mv source destination
+mkdir moved_files
+mv -r my_file_copy moved_files
+
+##mv can also be used to rename, provided source and dest are in same path
+cd moved_files
+mv moved_files moved_files_renamed
+
+##providing access to a directory, 777 implies all access
+chmod -R 777 moved_files_renamed
+
+## removing directories
+rm moved_files_renamed
+
+##update time stamp, by touch cmd
+touch my_file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
