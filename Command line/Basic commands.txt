@@ -1,0 +1,23 @@
+Command Line
+
+##listing files
+ls
+
+##list with size
+ls -l
+
+##listing files sorted with size and time
+ls -lsh
+
+##print
+echo "hello"
+
+##List current directory
+pwd
+
+##List space occupied
+du
+
+##List space in human readable format
+du -h
+
