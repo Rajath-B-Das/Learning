@@ -56,6 +56,65 @@ rm moved_files_renamed
 ##update time stamp, by touch cmd
 touch my_file
 
+##touch can also be used to create a empty files
+touch new_file.txt
+
+##Output file contents
+cat new_file.txt
+
+##View first few lines (default-10)
+head -4 new_file.txt
+
+##View last few lines (default-10)
+tail -4 new_file.txt
+
+##View dynamic logs
+tail -f new_file.txt
+
+##View pageing one screen at a time
+more new_file.txt
+
+##View with scrolling
+##starts off fast, doesnt load initially
+less new_file.txt
+
+
+##Word counts (lines, words, characters)
+wc new_file.txt
+
+##partial outputs of word count
+wc -l new_file.txt
+wc -w new_file.txt
+wc -c new_file.txt
+
+##grep - "global regular expression print"
+##prints lines matching a pattern
+grep 'a' new_file.txt
+
+##File Editing
+##vim - vi improved - text editor
+##learn functionalities of vim
+##customise bu editing .vimrc
+
+##cut - drop sections of each line of a file
+cut -d " " -f1 new_file.txt
+#" " is the delimiter, and f1 indicates field 1 after delimiting
+
+
+##Translate - tr - replace one set of character with other
+cat new_file.txt | tr -d 'a'
+
+##General
+##Pass  output of a command to next using '|'
+cat new_file.txt | tr -d 'a'
+
+##Input and output redirection
+tr -d 'a' < new_file.txt > new_replaced_file.txt
+
+
+
+
+
 
 
 
