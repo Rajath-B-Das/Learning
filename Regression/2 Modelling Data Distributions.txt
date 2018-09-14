@@ -1,0 +1,50 @@
+
+z-score:
+It is the number of SD deviations the value is from the mean
+z-score = (1/SD)*(x-mean)
+
+Eg: Mean = 5, SD = 1
+Find the z-score of 3
+=(3-5)/1 = -2
+
+Eg: Student X wants to know which exam he performed better:
+Math: 
+   mean = 40
+   SD = 5
+   score = 50
+
+Science:
+   mean = 30
+   SD=10
+   score = 40
+   
+z(math) = 2
+z(science) = 1
+
+Hence, he has performed better in math relatively
+
+----------------------
+Effect of data shift on central tendency and spread
+
+Mean of sample S is 10 and SD is 2
+
+Adding 2 to each data point
+ Mean_new = Mean_old+2
+ SD_new = SD_old
+ 
+Multiplying 2 to each data point
+ Mean_new = Mean_old*2
+ SD_new = SD_old*2
+ 
+----------------------
+Density Curves:
+ Relative frequencies plotted for a continuous x
+
+Some Properties of a Density Curve:
+ Mean, Median, Skew
+ 
+Mean<Median - left skewed
+Mean>Median - Right skewed
+
+
+

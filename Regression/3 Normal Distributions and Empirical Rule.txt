@@ -1,0 +1,16 @@
+
+Empirical rule:
+ The normal distribution defined by mean(mu) and SD(sigma)
+ 68%   of the area is covered within mu(+/-) 1 SD
+ 95%   of the area is covered within mu(+/-) 2 SD
+ 99.7% of the area is covered within mu(+/-) 3 SD
+There is a 99.7% chance of finding the result within +/- 3SD
+
+--------------------
+Standard Normal Distribution:
+Mean=0 and SD = 1
+
+--------------------
+Note: 
+ z-score just indicates the number of SD the value is away from the mean
+ It is not specific to Normal distribution

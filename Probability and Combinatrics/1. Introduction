@@ -1,0 +1,119 @@
+
+Probability Theory:
+
+P(X) = # of possibilities for event X/ Total # of possibilities
+
+The Monty Hall problem:
+Q. Three doors - behind one of them is a car, and the other three are empty. Contestant has to pick a door, then an unpicked empty door is shown and the contestant is asked if he wants to switch.
+Is switching a better option?
+
+Soln. Yes, the chance of picking a goat is higher initially, which means 2/3 times you are likely to pick a goat. Hence your initial pick might be a goat (most probably)
+
+Theoretical vs experimental probability
+
+An experiment indicates that after flipping a coin for 10 times, the results was 8 heads with 2 twos, here the experimental prob is 0.8, but theoretically would have equal chances 0.5. 
+As the number of trials increases, experimental prob moves towards theoretical prob
+
+
+---------------------------------
+Rule:
+P(A or B) = P(A)+P(B)-P(A and B)
+
+If these are mutually exclusive events, P(A and B becomes 0)
+
+Compound events the sample space has events dependent on each other, Getting a Small coffee from (Coffee, Cappuccino) and (S, M, L)
+
+Independent events, eg. having two heads when a coin is flipped twice. The probability of event 2 doesn't depend on even 1
+
+
+--------------------------------------
+Multiplication rule for Independent events
+
+P(10 heads in a row) = P(head)^# rimes in a row. Since the events are independent
+
+Example 1 : Defective chips
+
+A manufacturer of processing chips knows that 2% percent of its chips are defective in some way.
+Suppose an inspector randomly selects 4 chips for an inspection.
+Assuming the chips are independent, what is the probability that at least one of the selected chips is defective?
+Lets break this problem up into smaller pieces to understand the strategy behind solving it.
+
+EXAMPLE 1: PROBLEM B
+Find the probability that all 4 chips are NOT defective.
+0.98^4=0.922
+
+EXAMPLE 1: PROBLEM C
+Find the probability that at least one of the selected chips is defective.
+P(at least one defective)
+​	  
+=1−P(all 4 not defective)
+=1−(0.98) 
+4
+ 
+≈1−0.922
+≈0.078
+​	 
+
+
+Generalizing the strategy
+
+In general, we can use these strategies:
+P(at least 1 success)=1-P(all failures)
+
+or similarly,
+P(at least 1 failure)=1-P(all successes)
+
+----------------------------------------
+
+Multiplication rule for dependent events
+
+Eg. Bag contains 5 marbles, 3 of them are green and 2 are red
+Odds of picking two greens = P(green in first pick)*P(green in second pick, with first one as green)
+=3/5 * 2/4 = 0.3
+
+
+The general multiplication rule
+
+For any two events, we can say that
+P(a and b) = P(a) * p(b|a)
+This formula says that we can multiply the probabilities of two events, but we need to take the first event into account when considering the probability of the second event.
+If the events are independent, one happening doesn't impact the probability of the other, and in that case,
+p(b|a) = p(b)
+
+
+
+-----------------------------
+Bayes Theorem:
+
+P(a|b) = p(b|a)*p(a)/p(b)
+
+Independent events = p(b|a)=p(b)
+
+-----------------------
+Eg.
+
+Drug test: 
+false positive rate=2%
+false negative rate=1%
+
+5% of people use illegal drugs, P(drugs)=5%
+
+probability of spomeone actually using drugs provided they are tested positive = p(drugs | +ve)
+
+p(drugs | +ve) = p(+ve | drugs)*p(drugs)/p(+ve)
+
+=0.98*0.05/(0.98*0.05 + 0.95*0.02) = 72%
+
+
+
+
+
+
+
+
+
+
+
+
+
+

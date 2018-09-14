@@ -1,0 +1,87 @@
+
+----------------------------
+Scatterplots are leveraged to analyze bi-variate data
+ Linearity, Strength and direction of relationship between the variables
+ 
+Linearity: Linear/Non-Linear
+Strength: Strong/Weak
+Direction: Positive/negative
+
+--------------------------
+Correlation
+
+We often see patterns or relationships in scatterplots.
+ When the y variable tends to increase as the x variable increases, we say there is a positive correlation between the variables.
+ When the y variable tends to decrease as the x variable increases, we say there is a negative correlation between the variables.
+ 
+--------------------------
+Correlation Coefficient
+
+r = 1/(n-1)*Sum(Zxi*Zyi)
+
+Zxi = (xi-mean_x)/SD_x
+Zyi = (yi-mean_y)/SD_y
+
+If sample is considered, take unbiased estimate of SD
+
+ Correlation Co-efficient range from -1 to a +1
+
+-------------------------
+Introduction to trend lines:
+
+A trend line is the best fit line or the linear fit with least residuals
+ Residual = Actual - Predicted
+ Predicted is considered from the fitted line
+ So, Sum(residual_n^2) is considered
+    Square to eliminate the cancellation of positive and negative deviations
+	and square to influence higher effect due to larger deviations
+
+--------------------------
+Calculating the equation of trend line:
+
+line equation = y_hat = mx+b
+Slope m = r*(SD_y/SD_x)
+
+Once m is identified, b can be estimated by using points which lie on the line
+Now, mean_x and mean_y will always lie on the line
+
+-------------------------
+Assessing the fit of a trend line:
+
+Residual plot - 
+ Plot of residuals (i.e, actual - predicted) w.r.t x
+ The residuals if closer to 0, indicates good fit
+ If the residuals, show some trend, then its a bad fit
+ 
+R-squared - 
+ square of correlation co-efficient
+ Measures the proprtion of variability explained by the trend line
+ 
+ Suppose, a average line (y_mean) is fit, and the total squared residuals = X (deviation from mean)
+ after the fit, the total squared residuals = Y
+ then r_squared = 1-(Y/X)
+ 
+
+RMSD (Standard deviation of residuals or Root mean square error)
+ Indicates the SD in residuals
+ lower the value (i.e, lower the deviation in residuals), better the fit 
+
+----------------------
+Impact of removing outlier on regression line
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+

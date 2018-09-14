@@ -1,0 +1,96 @@
+
+Permutation:
+Number of ways n things can be arranged taking 3 at a time
+n!/(n-r)!
+
+
+-------------------------------------------
+
+0! = ?
+
+n! = n*n-1*n-2*........1
+
+nPr = n!/(n-r)!
+nPn = n! = n!/(n-n)! = n!/0!
+
+This implies 0!=1
+
+------------------------------------
+Combination:
+Number of ways that r things can be chosen from n things
+
+nCr = nPr/r!
+
+-------------------------------------
+Probability using combinations:
+
+Eg. Probability of getting exactly 3 heads from 8 flips
+
+
+Total number of possibilities = 2^8 = X
+
+How many of these possibilities have 3 heads in them?
+8C3 = 8!/[(8-3)! * 3!] = Y
+
+p(3 Heads/8 Flips) = Y/X
+
+-----------------------------------------------
+Eg 2.
+
+probability of picking 4 ones in a card game with 36 unique cards (1 to 9, 4 suits). Hand consists of 9 cards
+
+Total number of ways to choose 9 cards from 36 = 36C9
+
+# of ways to get 4 ones in a 9 card hand = possible combinations from other cards = 32C5
+
+Probability = 32C5/36C9
+
+
+-----------------------------------------------
+Eg 3.
+
+probability of getting 2 heads from 4 flips
+
+
+Total combinations = 2^4, since these are independent events
+
+Combinations for 2 heads = 4C2 = 4*3/(2*1) = 6
+
+p(2/4) = 6/16
+
+--------------------------------------------------
+Eg 3.
+
+probability of getting 3 heads from 5 flips
+
+
+Total combinations = 2^5, since these are independent events
+
+Combinations for 3 heads = 5C3 = 5*4*3/(3*2*1) = 10
+
+p(2/4) = 10/32 = 5/16
+
+---------------------------------------------
+Eg 4.
+
+Probability of getting 3,5,16, 49 as the lottery draw number, if number ranges from 1 to 60
+
+How many such combinations are possible?
+60C4 = Number of ways choosing 4 numbers
+
+Number of ways choosing the specific combination = 1
+
+probability of these 4 being the winning combination=1/60C4
+
+
+
+
+
+
+
+
+
+
+
+
+

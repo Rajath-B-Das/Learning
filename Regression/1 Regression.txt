@@ -1,0 +1,24 @@
+
+
+Regression:
+
+1. Linear Regression - 
+
+Residual sum of squares (RSS) = Sum(actual-predicted)^2
+
+Best fit implies least RSS,
+
+A 3D plot of w0 on x and w1 on y and RSS on z, can be plotted to get w0 and w1 values for least RSS
+
+Maxima or minima of the curve is point a derivative = 0
+ To identify whether curve is concave or convex, 2nd derivative can be used
+
+Another way to identify the maxima/minima
+ Hill climbing/Hill Descent algos can be used
+ 
+ 
+RSS = Sum[i to N](y-[w0+w1xi)
+So, derivate of RSS w.r.t w0 and w1 needs to be identified
+
+Approach 1:
+

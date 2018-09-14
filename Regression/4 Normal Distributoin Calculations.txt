@@ -1,0 +1,24 @@
+
+Q1.
+Heights of students are normally distributed
+ Mean = 150cm
+ SD = 20cm
+What is the proportion of students with height < 164cm
+
+Soln.
+Estimate the z-score
+ z = 164-150/20
+Lookup this value in the z table to estimate the proportion
+
+-----------------------------
+Finding z-score for a percentile:
+
+z-score has to be estimated given the percentage value required
+Then mean +/- z*SD will be the value for that percentage
+
+----------------------------
+More about Normal Distribution:
+
+p(x) = height of the curve at x = 1/(sqrt(2*pi*sigma^2*e^(z^2))
+
+
